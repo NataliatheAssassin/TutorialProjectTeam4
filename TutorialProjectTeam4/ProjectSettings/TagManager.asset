@@ -14,7 +14,7 @@ TagManager:
   - UI
   - Player
   - Ground
-  - Ground Sensor
+  - 
   - 
   - 
   - 
@@ -47,7 +47,4 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 767658743
-    locked: 0
-  - name: (Temp) Camera Border Display
-    uniqueID: 2451123361
     locked: 0

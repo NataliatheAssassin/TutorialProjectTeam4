@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|c:\\users\\eigen\\onedrive\\desktop\\tutorialprojectteam4\\tutorialprojectteam4\\assets\\code\\interface\\i_groundable\\groundsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\interface\\i_groundable\\groundsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|c:\\users\\eigen\\onedrive\\desktop\\tutorialprojectteam4\\tutorialprojectteam4\\assets\\code\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\assets\\code\\interface\\i_groundable\\i_groundable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\interface\\i_groundable\\i_groundable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|c:\\users\\eigen\\onedrive\\desktop\\tutorialprojectteam4\\tutorialprojectteam4\\assets\\code\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\assets\\code\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GroundSensor.cs",
-              "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Interface\\I_Groundable\\GroundSensor.cs",
-              "RelativeDocumentMoniker": "Assets\\Code\\Interface\\I_Groundable\\GroundSensor.cs",
-              "ToolTip": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Interface\\I_Groundable\\GroundSensor.cs",
-              "RelativeToolTip": "Assets\\Code\\Interface\\I_Groundable\\GroundSensor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABJAAAA",
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Player.cs",
+              "ToolTip": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Player.cs",
+              "RelativeToolTip": "Assets\\Code\\Player.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAA8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T10:50:45.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Enemy\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Code\\Enemy\\Enemy.cs",
-              "ToolTip": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Enemy\\Enemy.cs",
-              "RelativeToolTip": "Assets\\Code\\Enemy\\Enemy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T10:44:19.612Z",
+              "WhenOpened": "2024-07-21T11:29:26.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "I_Groundable.cs",
-              "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Interface\\I_Groundable\\I_Groundable.cs",
-              "RelativeDocumentMoniker": "Assets\\Code\\Interface\\I_Groundable\\I_Groundable.cs",
-              "ToolTip": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Interface\\I_Groundable\\I_Groundable.cs",
-              "RelativeToolTip": "Assets\\Code\\Interface\\I_Groundable\\I_Groundable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Entity.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Entity.cs",
+              "ToolTip": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Entity.cs",
+              "RelativeToolTip": "Assets\\Code\\Entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T09:33:19.698Z",
+              "WhenOpened": "2024-07-21T11:30:52.217Z",
               "EditorCaption": ""
             }
           ]
