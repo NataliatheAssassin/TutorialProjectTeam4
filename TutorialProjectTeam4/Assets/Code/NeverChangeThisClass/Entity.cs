@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour
 {
-    private float hp;
-    private float maxHp;
+    public float hp;
+    public float maxHp;
 
-    [SerializeField] GameObject deathEffect;
+    [SerializeField] protected GameObject deathEffect;
 
-    private void Start()
+    public virtual void Start()
     {
         hp = maxHp;
     }
