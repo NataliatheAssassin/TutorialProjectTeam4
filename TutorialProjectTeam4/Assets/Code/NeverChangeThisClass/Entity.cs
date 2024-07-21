@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour
 {
-    public float hp;
-    public float maxHp;
+    protected float hp;
+    protected float maxHp;
 
     [SerializeField] protected GameObject deathEffect;
 

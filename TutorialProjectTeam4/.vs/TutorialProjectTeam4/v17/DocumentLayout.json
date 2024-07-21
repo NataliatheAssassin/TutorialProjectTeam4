@@ -3,23 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|c:\\users\\eigen\\onedrive\\desktop\\tutorialprojectteam4\\tutorialprojectteam4\\assets\\code\\neverchangethisclass\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\neverchangethisclass\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|c:\\users\\eigen\\onedrive\\desktop\\tutorialprojectteam4\\tutorialprojectteam4\\assets\\code\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|c:\\users\\eigen\\onedrive\\desktop\\tutorialprojectteam4\\tutorialprojectteam4\\assets\\code\\neverchangethisclass\\deatheffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\assets\\code\\neverchangethisclass\\deatheffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\neverchangethisclass\\deatheffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|c:\\users\\eigen\\onedrive\\desktop\\tutorialprojectteam4\\tutorialprojectteam4\\assets\\code\\box\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\assets\\code\\box\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\box\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|c:\\users\\eigen\\onedrive\\desktop\\tutorialprojectteam4\\tutorialprojectteam4\\assets\\code\\box\\iron_box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\assets\\code\\box\\iron_box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\box\\iron_box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|c:\\users\\eigen\\onedrive\\desktop\\tutorialprojectteam4\\tutorialprojectteam4\\assets\\code\\box\\wooden_box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\assets\\code\\box\\wooden_box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\box\\wooden_box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\NeverChangeThisClass\\Entity.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\NeverChangeThisClass\\Entity.cs",
+              "ToolTip": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\NeverChangeThisClass\\Entity.cs",
+              "RelativeToolTip": "Assets\\Code\\NeverChangeThisClass\\Entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T14:27:20.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DeathEffect.cs",
               "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\NeverChangeThisClass\\DeathEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\NeverChangeThisClass\\DeathEffect.cs",
@@ -42,12 +59,11 @@
               "RelativeToolTip": "Assets\\Code\\NeverChangeThisClass\\DeathEffect.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T14:21:58.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T14:21:58.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Box.cs",
               "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Box\\Box.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Box\\Box.cs",
@@ -55,12 +71,11 @@
               "RelativeToolTip": "Assets\\Code\\Box\\Box.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T14:11:02.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T14:11:02.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Iron_Box.cs",
               "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Box\\Iron_Box.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Box\\Iron_Box.cs",
@@ -68,12 +83,11 @@
               "RelativeToolTip": "Assets\\Code\\Box\\Iron_Box.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T14:10:59.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T14:10:59.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Wooden_Box.cs",
               "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Box\\Wooden_Box.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Box\\Wooden_Box.cs",
@@ -81,12 +95,11 @@
               "RelativeToolTip": "Assets\\Code\\Box\\Wooden_Box.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T14:10:56.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T14:10:56.262Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Player.cs",
