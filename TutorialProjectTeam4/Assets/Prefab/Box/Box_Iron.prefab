@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8605139807336608521}
   - component: {fileID: 4901919655900765360}
   m_Layer: 8
-  m_Name: Iron_Box
+  m_Name: Box_Iron
   m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

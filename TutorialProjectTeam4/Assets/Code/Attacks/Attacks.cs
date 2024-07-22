@@ -9,7 +9,6 @@ public abstract class Attacks : MonoBehaviour
     protected string owner; public void SetOwner(string value) { owner = value; }
     protected float damage; //set with awake(inherit)
     protected float speed; //set with awake(inherit)
-    protected bool isPiercing; //set with awake(inherit)
 
     [SerializeField] protected GameObject deathEffect;
 
@@ -30,7 +29,7 @@ public abstract class Attacks : MonoBehaviour
         if (((other.tag == "Player" || other.tag == "Enemy") && other.tag != owner) || (other.tag == "Box"))
         {
             other.GetComponent<Entity>().TakeDamage(damage);
-            if (!isPiercing) { Die(); }
+            Die();
         }
         else if (other.tag == "Ground")
         {

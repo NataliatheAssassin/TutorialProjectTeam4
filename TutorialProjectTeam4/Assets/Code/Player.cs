@@ -5,7 +5,6 @@ using UnityEngine;
 public class Player : Entity
 {
     private Rigidbody2D rb { get => GetComponent<Rigidbody2D>(); }
-    private SpriteRenderer sr { get => GetComponent<SpriteRenderer>(); }
 
     private float smoothingMulti = 0.5f; //0.5f ~ 0.85f is fine
     private Vector2 accDirection;

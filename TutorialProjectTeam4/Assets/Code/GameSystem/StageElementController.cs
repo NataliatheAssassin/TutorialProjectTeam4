@@ -7,6 +7,11 @@ public class StageElementController : StageSystem
 {
     [SerializeField] private GameObject[] elementsOfStages = new GameObject[5];
 
+    private void Start()
+    {
+        ChangeStage(true);
+    }
+
     public void ChangeStage(bool isGoingToNext)
     {
         Attacks[] bulletsOfPreviousStage = FindObjectsOfType<Attacks>();
@@ -15,7 +20,7 @@ public class StageElementController : StageSystem
             Destroy(bulletsOfPreviousStage[i].gameObject);
         }
 
-        elementsOfStages[currentStageNumber].SetActive(false);
+        if (currentStageNumber != -1) elementsOfStages[currentStageNumber].SetActive(false);
         if (isGoingToNext)
         {
             elementsOfStages[currentStageNumber + 1].SetActive(true);

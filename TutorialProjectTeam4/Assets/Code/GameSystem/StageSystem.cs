@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class StageSystem : MonoBehaviour
 {
-    protected static int currentStageNumber = 0;
+    protected static int currentStageNumber = -1;
 }

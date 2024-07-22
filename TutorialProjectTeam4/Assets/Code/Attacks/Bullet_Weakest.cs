@@ -8,7 +8,6 @@ public class Bullet_Weakest : Attacks
     {
         damage = 5;
         speed = 15f;
-        isPiercing = false;
     }
 
     public override void Start()
