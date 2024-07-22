@@ -19,7 +19,7 @@ TagManager:
   - Box
   - Enemy
   - Attack
-  - 
+  - Boundary
   - 
   - 
   - 
@@ -47,14 +47,14 @@ TagManager:
   - name: Tilemap
     uniqueID: 1478578213
     locked: 0
+  - name: Attack
+    uniqueID: 3375196801
+    locked: 0
   - name: Player
     uniqueID: 767658743
     locked: 0
   - name: Box
     uniqueID: 2592597157
-    locked: 0
-  - name: Attack
-    uniqueID: 3375196801
     locked: 0
   - name: Enemy
     uniqueID: 3995039839

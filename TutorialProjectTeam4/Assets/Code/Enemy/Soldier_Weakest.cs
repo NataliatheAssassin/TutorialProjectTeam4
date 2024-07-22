@@ -15,6 +15,11 @@ public class Soldier_Weakest : Enemy
         StartCoroutine(UpdateDirection());
     }
 
+    private void OnEnable() //StageElementController 때문에 SetActive(false)가 됐다가 true가 되는 경우에, coroutine이 끊길 수 있음.
+    {
+        StartCoroutine(UpdateDirection());
+    }
+
     IEnumerator UpdateDirection()
     {
         transform.right = player.transform.position - transform.position;

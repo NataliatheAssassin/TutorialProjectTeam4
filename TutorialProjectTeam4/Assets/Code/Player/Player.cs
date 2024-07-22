@@ -15,7 +15,7 @@ public class Player : Entity
 
     private void Awake()
     {
-        maxHp = 100;
+        maxHp = 100f;
     }
 
     public override void Start()
@@ -56,4 +56,6 @@ public class Player : Entity
             temp.GetComponent<Attacks>().SetOwner("Player");
         }
     }
+
+    public float X_VelocityOfPlayer() { return rb.velocity.x; }
 }
