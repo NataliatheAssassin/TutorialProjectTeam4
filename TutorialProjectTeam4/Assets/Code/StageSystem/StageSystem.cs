@@ -18,20 +18,16 @@ public class StageSystem : MonoBehaviour
         //여기 밑에 있는 것들은 일단 테스트용... ㅎㅎ
         if (stageNumber == 1)
         {
-            for (int i=1; i<6; i++)
-            {
-                Instantiate(enemy[0], new Vector2(-i * 2, i), transform.rotation);
-                Instantiate(enemy[0], new Vector2(i * 2, i), transform.rotation);
-                Instantiate(enemy[0], new Vector2(-i * 2, -i), transform.rotation);
-                Instantiate(enemy[0], new Vector2(i * 2, -i), transform.rotation);
-            }
-            Instantiate(box[0], new Vector2(0f, 5f), transform.rotation);
-            Instantiate(box[1], new Vector2(0f, -5f), transform.rotation);
-            Instantiate(item[0], new Vector2(0f, 7f), transform.rotation);
+            Instantiate(enemy[0], new Vector2(-5f, 0f), transform.rotation);
+            Instantiate(enemy[1], new Vector2(5f, 0f), transform.rotation);
+            Instantiate(enemy[2], new Vector2(0f, 5f), transform.rotation);
+            Instantiate(enemy[3], new Vector2(0f, -5f), transform.rotation);
         }
         else if (stageNumber == 2)
         {
-
+            Instantiate(box[0], new Vector2(36f, 5f), transform.rotation);
+            Instantiate(box[1], new Vector2(36f, -5f), transform.rotation);
+            Instantiate(item[0], new Vector2(36f, 7f), transform.rotation);
         }
         else if (stageNumber == 3)
         {

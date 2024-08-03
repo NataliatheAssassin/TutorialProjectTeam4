@@ -11714,6 +11714,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy:
   - {fileID: 4200847054889048716, guid: b6c1f5abbec3e074aa8dbc3edbe00694, type: 3}
+  - {fileID: 9168593442248337797, guid: cee9bfa8b168b284f8944520de0c933e, type: 3}
+  - {fileID: 17945301625760019, guid: c7e4b445d85191f43bcda93324720f86, type: 3}
+  - {fileID: 3559343865138948771, guid: 56661f77e2573be4f91ab0619634c36c, type: 3}
   box:
   - {fileID: 2578452728863310861, guid: 19638fac429cf944a923e5bc3794ee1d, type: 3}
   - {fileID: 1078098222484013846, guid: 6603df7ee906c014d8a6247e1528eda8, type: 3}
@@ -48693,7 +48696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathEffect: {fileID: 7676344538833998980, guid: 628a6c07ed368a544816434ea6ee3b41, type: 3}
-  attack: {fileID: 6490760594087922403, guid: 5c79dd49629558346a6795e96f333869, type: 3}
+  attack: {fileID: 4408946559073453369, guid: a62047f3297bbf644bd3c1f8920880ad, type: 3}
 --- !u!1001 &6782094849100306739
 PrefabInstance:
   m_ObjectHideFlags: 0
