@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\",
+  "WorkspaceRootPath": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\TutorialProjectTeam4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\assets\\code\\stagesystem\\stagesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\stagesystem\\stagesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|c:\\users\\eigen\\onedrive\\desktop\\unity\\project\\tutorialprojectteam4\\tutorialprojectteam4\\assets\\code\\entity\\enemy\\soldier_signalman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\entity\\enemy\\soldier_signalman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|c:\\users\\eigen\\onedrive\\desktop\\unity\\project\\tutorialprojectteam4\\assets\\code\\entity\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\entity\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\TutorialProjectTeam4\\assets\\code\\entity\\enemy\\soldier_gunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\entity\\enemy\\soldier_gunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\TutorialProjectTeam4\\assets\\code\\entity\\enemy\\soldier_swordman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\entity\\enemy\\soldier_swordman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\TutorialProjectTeam4\\assets\\code\\entity\\enemy\\soldier_sniper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\entity\\enemy\\soldier_sniper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\TutorialProjectTeam4\\assets\\code\\stagesystem\\stagesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAC216FB-CD18-EDBE-DC70-A77E15E1F8D7}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\stagesystem\\stagesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,34 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "StageSystem.cs",
-              "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\Assets\\Code\\StageSystem\\StageSystem.cs",
+              "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\StageSystem\\StageSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\StageSystem\\StageSystem.cs",
-              "ToolTip": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\Assets\\Code\\StageSystem\\StageSystem.cs",
+              "ToolTip": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\StageSystem\\StageSystem.cs",
               "RelativeToolTip": "Assets\\Code\\StageSystem\\StageSystem.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T09:07:02.635Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\Assets\\Code\\Entity\\Player\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Code\\Entity\\Player\\Player.cs",
-              "ToolTip": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\Assets\\Code\\Entity\\Player\\Player.cs",
-              "RelativeToolTip": "Assets\\Code\\Entity\\Player\\Player.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAABnAAAA",
+              "Title": "Soldier_Gunner.cs",
+              "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Entity\\Enemy\\Soldier_Gunner.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Entity\\Enemy\\Soldier_Gunner.cs",
+              "ToolTip": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Entity\\Enemy\\Soldier_Gunner.cs",
+              "RelativeToolTip": "Assets\\Code\\Entity\\Enemy\\Soldier_Gunner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T10:35:25.665Z",
+              "WhenOpened": "2024-08-03T11:21:05.61Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Soldier_Signalman.cs",
+              "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Entity\\Enemy\\Soldier_Signalman.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Entity\\Enemy\\Soldier_Signalman.cs",
+              "ToolTip": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Entity\\Enemy\\Soldier_Signalman.cs",
+              "RelativeToolTip": "Assets\\Code\\Entity\\Enemy\\Soldier_Signalman.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T11:21:44.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Soldier_Sniper.cs",
+              "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Entity\\Enemy\\Soldier_Sniper.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Entity\\Enemy\\Soldier_Sniper.cs",
+              "ToolTip": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Entity\\Enemy\\Soldier_Sniper.cs",
+              "RelativeToolTip": "Assets\\Code\\Entity\\Enemy\\Soldier_Sniper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T11:20:58.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Soldier_Swordman.cs",
+              "DocumentMoniker": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Entity\\Enemy\\Soldier_Swordman.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Entity\\Enemy\\Soldier_Swordman.cs",
+              "ToolTip": "C:\\Users\\eigen\\OneDrive\\Desktop\\Unity\\Project\\TutorialProjectTeam4\\TutorialProjectTeam4\\Assets\\Code\\Entity\\Enemy\\Soldier_Swordman.cs",
+              "RelativeToolTip": "Assets\\Code\\Entity\\Enemy\\Soldier_Swordman.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T11:21:23.711Z"
             }
           ]
         }

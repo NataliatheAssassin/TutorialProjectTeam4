@@ -24,7 +24,7 @@ public class Soldier_Gunner : Enemy
     private void Update()
     {
         if (player != null && Vector2.Distance(transform.position, player.transform.position) < 5f)
-            transform.right = Vector2.Lerp(transform.right, (player.transform.position-transform.position).normalized, Time.deltaTime * 10);
+            transform.right = Vector2.Lerp(transform.right, (player.transform.position - transform.position).normalized, Time.deltaTime * 10);
     }
 
     IEnumerator Status_1()

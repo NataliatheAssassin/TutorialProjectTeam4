@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4931046510671027687}
+  - component: {fileID: 34940196865514691}
   - component: {fileID: 3327524998863465768}
   - component: {fileID: 8279434927645723501}
   - component: {fileID: 600591979413951350}
-  - component: {fileID: 4960176802108347599}
   - component: {fileID: -3215181355607867444}
   m_Layer: 9
   m_Name: Soldier_Gunner
@@ -36,6 +36,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &34940196865514691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4200847054889048716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34b1c115807ddff4bb577214ca226c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathEffect: {fileID: 5003760969326687313, guid: 132e60fc3f76bcc48a98894067d60b61, type: 3}
+  attack: {fileID: 6490760594087922403, guid: 5c79dd49629558346a6795e96f333869, type: 3}
 --- !u!212 &3327524998863465768
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -75,7 +89,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -299927457
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -2131966126, guid: 9cf4b3e4352fa2d4caf819159f9cf0fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -160,20 +174,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &4960176802108347599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4200847054889048716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7103ee4611dbfc24cb0a2d43bf02154d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deathEffect: {fileID: 5003760969326687313, guid: 132e60fc3f76bcc48a98894067d60b61, type: 3}
-  attack: {fileID: 6490760594087922403, guid: 5c79dd49629558346a6795e96f333869, type: 3}
 --- !u!95 &-3215181355607867444
 Animator:
   serializedVersion: 5
