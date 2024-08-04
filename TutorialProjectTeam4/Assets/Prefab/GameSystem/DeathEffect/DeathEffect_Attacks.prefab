@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4744248174030833064}
-  - component: {fileID: 1602896178788725852}
   - component: {fileID: 8254062434126337009}
+  - component: {fileID: 1602896178788725852}
   - component: {fileID: 2931316770532989647}
   m_Layer: 0
   m_Name: DeathEffect_Attacks
@@ -34,6 +34,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8254062434126337009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7696617099811851245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cd9d24ce79cdd341831a559f3f5cb41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &1602896178788725852
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -73,7 +85,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -81235809
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b91c409a760a03e4e858e80a2f36690a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -86,18 +98,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8254062434126337009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7696617099811851245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cd9d24ce79cdd341831a559f3f5cb41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &2931316770532989647
 Animator:
   serializedVersion: 5

@@ -66,4 +66,10 @@ public class Player : Entity
         SceneManager.LoadScene("In_Game");
         Destroy(gameObject);
     }
+
+    public void Recover(float amount)
+    {
+        if (hp + amount <= maxHp) { hp += amount; }
+        else { hp = maxHp; }
+    }
 }

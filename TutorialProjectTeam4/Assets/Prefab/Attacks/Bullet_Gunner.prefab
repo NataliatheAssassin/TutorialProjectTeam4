@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 95172593289571998}
+  - component: {fileID: 8308184679829665871}
   - component: {fileID: 7184678519850280011}
   - component: {fileID: 2898726395923138443}
   - component: {fileID: 4731595170419464383}
-  - component: {fileID: 8308184679829665871}
   m_Layer: 10
   m_Name: Bullet_Gunner
   m_TagString: Untagged
@@ -35,6 +35,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8308184679829665871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6490760594087922403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba12c6cefc7dab446a2ac59b209a321e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathEffect: {fileID: 7696617099811851245, guid: 0c2fbe4e790f1ae48a34087e6a049159, type: 3}
 --- !u!212 &7184678519850280011
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -74,7 +87,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -919770495
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
@@ -149,16 +162,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &8308184679829665871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6490760594087922403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba12c6cefc7dab446a2ac59b209a321e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deathEffect: {fileID: 7696617099811851245, guid: 0c2fbe4e790f1ae48a34087e6a049159, type: 3}

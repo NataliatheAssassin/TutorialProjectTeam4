@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Enemy
   - Box
+  - Mouse
+  - Interactive Object
   layers:
   - Default
   - TransparentFX
@@ -21,8 +23,8 @@ TagManager:
   - Attack
   - Goal
   - Item
-  - 
-  - 
+  - Mouse
+  - Interactive Object
   - 
   - 
   - 
@@ -47,6 +49,9 @@ TagManager:
   - name: Tilemap
     uniqueID: 1478578213
     locked: 0
+  - name: InteractiveObject
+    uniqueID: 2069955763
+    locked: 0
   - name: Item
     uniqueID: 625567733
     locked: 0
@@ -67,4 +72,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 1521259133
+    locked: 0
+  - name: Mouse
+    uniqueID: 2236537545
     locked: 0

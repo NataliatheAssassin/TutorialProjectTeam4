@@ -21,8 +21,9 @@ public class Soldier_Signalman : Enemy
         StartCoroutine(Status_1());
     }
 
-    private void Update()
+    protected override void Update()
     {
+        base.Update();
         if (player != null && Vector2.Distance(transform.position, player.transform.position) < 7.5f)
             transform.right = Vector2.Lerp(transform.right, (player.transform.position - transform.position).normalized, Time.deltaTime * 10);
     }

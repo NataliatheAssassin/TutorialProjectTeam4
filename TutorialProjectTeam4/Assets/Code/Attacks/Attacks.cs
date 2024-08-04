@@ -22,7 +22,7 @@ public class Attacks : MonoBehaviour
             other.GetComponent<Entity>().TakeDamage(damage);
             Die();
         }
-        else if (other.tag == "Ground")
+        else if (other.tag == "Ground" || other.tag == "Interactive Object")
         {
             Die();
         }

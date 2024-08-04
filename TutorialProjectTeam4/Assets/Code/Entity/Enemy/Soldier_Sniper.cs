@@ -23,8 +23,9 @@ public class Soldier_Sniper : Enemy
         StartCoroutine(Status_1());
     }
 
-    private void Update()
+    protected override void Update()
     {
+        base.Update();
         if (player != null) //무한 사거리이므로 Soldier_Gunner와 다르게, 사거리 제한 조건이 없음
             transform.right = Vector2.Lerp(transform.right, (player.transform.position - transform.position).normalized, Time.deltaTime * 10);
     }
