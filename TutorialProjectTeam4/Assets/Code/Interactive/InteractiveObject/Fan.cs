@@ -17,7 +17,7 @@ public class Fan : InteractiveObject
 
     public override void StatusChanged(bool status)
     {
-        if (status == true)
+        if (status == false)
         {
             ae.enabled = true;
             sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, 1f);

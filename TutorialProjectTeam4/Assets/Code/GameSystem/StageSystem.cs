@@ -22,20 +22,20 @@ public class StageSystem : MonoBehaviour
         //여기 밑에 있는 것들은 일단 테스트용... ㅎㅎ
         if (stageNumber == 1)
         {
-            Instantiate(enemy[0], new Vector2(5f, 5f), transform.rotation);
-            Instantiate(enemy[1], new Vector2(5f, 2f), transform.rotation);
-            Instantiate(enemy[2], new Vector2(5f, -2f), transform.rotation);
-            Instantiate(enemy[3], new Vector2(5f, -5f), transform.rotation);
-
-            Instantiate(box[0], new Vector2(0f, 4f), transform.rotation);
-            Instantiate(box[1], new Vector2(0f, -4f), transform.rotation);
-
-            Instantiate(item[0], new Vector2(-5f, 3f), transform.rotation);
-            Instantiate(item[1], new Vector2(-5f, -3f), transform.rotation);
+            Instantiate(box[0], new Vector2(0f, 0f), transform.rotation);
+            Instantiate(item[0], new Vector2(12f, -4.5f), transform.rotation);
+            Instantiate(item[1], new Vector2(12f, 4.5f), transform.rotation);
         }
         else if (stageNumber == 2)
         {
+            Instantiate(box[0], new Vector2(23f, -7f), transform.rotation);
 
+            Instantiate(enemy[0], new Vector2(29.5f, -3.5f), transform.rotation);
+            Instantiate(enemy[0], new Vector2(43f, 3.5f), transform.rotation);
+            Instantiate(enemy[2], new Vector2(29f, 4f), transform.rotation);
+
+            Instantiate(enemy[0], new Vector2(40f, -4f), transform.rotation);
+            Instantiate(enemy[3], new Vector2(46f, -4f), transform.rotation);
         }
         else if (stageNumber == 3)
         {

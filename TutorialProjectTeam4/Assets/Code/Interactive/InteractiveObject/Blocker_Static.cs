@@ -11,13 +11,13 @@ public class Blocker_Static : InteractiveObject
     {
         if (status == true)
         {
-            bc.enabled = true;
-            sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, 1f);
+            bc.enabled = false;
+            sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, 0.25f);
         }
         else
         {
-            bc.enabled = false;
-            sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, 0.25f);
+            bc.enabled = true;
+            sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, 1f);
         }
     }
 }
