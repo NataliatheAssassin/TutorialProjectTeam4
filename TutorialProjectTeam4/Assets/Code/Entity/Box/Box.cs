@@ -5,13 +5,13 @@ using UnityEngine;
 public class Box : Entity
 {
     protected Rigidbody2D rb { get => GetComponent<Rigidbody2D>(); }
-
+    public Button button;
     protected float mass;
-
     protected override void Start()
     {
         base.Start();
         rb.mass = mass;
+        button = new Button();
     }
 
     private void FixedUpdate()

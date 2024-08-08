@@ -17,5 +17,6 @@ public class InteractiveObjectController : MonoBehaviour
         isTouchingMouse = false;
 
         for (int i=0; i<children.Length; i++) { children[i].StatusChanged(isActivated); }
+        
     }
 }
