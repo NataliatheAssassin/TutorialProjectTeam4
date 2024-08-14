@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenuFade : MonoBehaviour
+public class GameOverFade : MonoBehaviour
 {
+    [SerializeField] string sceneName;
     SpriteRenderer sr { get => GetComponent<SpriteRenderer>(); }
 
     private void OnEnable()
@@ -20,7 +22,7 @@ public class MainMenuFade : MonoBehaviour
             yield return null;
         }
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("In_Game");  
+        SceneManager.LoadScene(sceneName);
         yield break;
     }
 }
