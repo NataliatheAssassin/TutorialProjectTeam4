@@ -50,4 +50,9 @@ public class StageSystem : MonoBehaviour
 
         }
     }
+
+    public void loadStage()
+    {
+        
+    }
 }
