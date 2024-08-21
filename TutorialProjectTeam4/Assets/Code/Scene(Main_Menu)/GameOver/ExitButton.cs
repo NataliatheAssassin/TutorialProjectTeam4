@@ -7,6 +7,6 @@ public class ExitButton : MonoBehaviour
     public void OnClickExit()
     {
         Application.Quit();
-        Debug.Log("exit button clicked");
+        //Debug.Log("exit button clicked");
     }
 }

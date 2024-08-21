@@ -15,23 +15,39 @@ public class DataManager : MonoBehaviour
         position = new Vector3(0, 0, 0);
     }
 
-    public static void Save()
+    public static void ManualSave()
     {
-        GameObject player = GameObject.Find("Player");
-        position.x = player.transform.position.x;
-        position.y = player.transform.position.y;
+        //스테이지 넘버 저장
+        PlayerPrefs.SetInt("StageNumber", StageSystem.stageNumber);
+
+        //플레이어 정보 저장
+        Player player = GameObject.FindObjectOfType<Player>();
         if (player != null)
         {
-            PlayerPrefs.SetFloat("PlayerX", position.x);
-            PlayerPrefs.SetFloat("PlayerY", position.y);
+            PlayerPrefs.SetFloat("PlayerX", player.transform.position.x);
+            PlayerPrefs.SetFloat("PlayerY", player.transform.position.y);
         }
+        PlayerPrefs.SetFloat("PlayerHp", player.GetHp());
+        PlayerPrefs.SetFloat("PlayerMag", player.GetMagazine());
 
-        Entity[] allEntyties = FindObjectsOfType<Entity>();
-        for(int i = 0; i < allEntyties.Length; i++)
+        //모든 Enitities 정보 저장
+        Entity[] allEntities = FindObjectsOfType<Entity>();
+        for(int i = 0; i < allEntities.Length; i++)
         {
-
+            if (allEntities[i].tag != "Player")
+            {
+            PlayerPrefs.SetFloat(allEntities[i].ToString() + "X", allEntities[i].transform.position.x);
+            PlayerPrefs.SetFloat(allEntities[i].ToString() + "Y", allEntities[i].transform.position.y);
+            }
         }
 
         PlayerPrefs.Save();
     }
+
+    /*
+    public static void AutoSave()
+    {
+
+    }
+    */
 }
