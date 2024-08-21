@@ -17159,7 +17159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693798981294847316, guid: 73d750f1993cc90429f21f027805a359, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.31
+      value: 3.41
       objectReference: {fileID: 0}
     - target: {fileID: 4693798981294847316, guid: 73d750f1993cc90429f21f027805a359, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18738,16 +18738,20 @@ PrefabInstance:
       value: Blocker_Static (1)
       objectReference: {fileID: 0}
     - target: {fileID: 8292625525102582623, guid: 8f81dcc6f7c8b4c4caadc66ede2fc890, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1053714
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292625525102582623, guid: 8f81dcc6f7c8b4c4caadc66ede2fc890, type: 3}
       propertyPath: m_LocalScale.y
-      value: 6
+      value: 5.836004
       objectReference: {fileID: 0}
     - target: {fileID: 8292625525102582623, guid: 8f81dcc6f7c8b4c4caadc66ede2fc890, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.43
+      value: -4.4827
       objectReference: {fileID: 0}
     - target: {fileID: 8292625525102582623, guid: 8f81dcc6f7c8b4c4caadc66ede2fc890, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.9632998
+      value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: 8292625525102582623, guid: 8f81dcc6f7c8b4c4caadc66ede2fc890, type: 3}
       propertyPath: m_LocalPosition.z
