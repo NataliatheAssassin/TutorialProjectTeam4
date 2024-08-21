@@ -1,3 +1,7 @@
+# 임시로 작업해보는 것
+*.log
+*.dwlt
+
 [Aa]ssets/AssetStoreTools*
 [Bb]uild/
 [Ll]ibrary/

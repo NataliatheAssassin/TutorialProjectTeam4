@@ -43,7 +43,7 @@ public class StageSystem : MonoBehaviour
         }
         else if (stageNumber == 4) //stage 2
         {
-
+            Instantiate(box[2], new Vector2(105f, 0f), transform.rotation);
         }
         else if (stageNumber == 5)
         {
