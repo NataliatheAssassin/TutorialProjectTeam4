@@ -8082,7 +8082,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1101429804015533914, guid: 3cdd2efef789a8b44b9af4baa84db4b2, type: 3}
       propertyPath: nextSceneNumber
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7824085552937667157, guid: 3cdd2efef789a8b44b9af4baa84db4b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8483,7 +8483,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathEffect: {fileID: 0}
-  button: {fileID: 0}
 --- !u!1001 &1210847092
 PrefabInstance:
   m_ObjectHideFlags: 0
