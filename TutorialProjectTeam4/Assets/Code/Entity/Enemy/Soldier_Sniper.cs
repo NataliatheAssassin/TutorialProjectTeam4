@@ -6,7 +6,7 @@ public class Soldier_Sniper : Enemy
 {
     private Animator anim { get => GetComponent<Animator>(); }
 
-    [SerializeField] protected GameObject attack;
+    [SerializeField] GameObject attack;
 
     private void Awake()
     {
@@ -26,21 +26,27 @@ public class Soldier_Sniper : Enemy
     protected override void Update()
     {
         base.Update();
-        if (player != null) //무한 사거리이므로 Soldier_Gunner와 다르게, 사거리 제한 조건이 없음
-            transform.right = Vector2.Lerp(transform.right, (player.transform.position - transform.position).normalized, Time.deltaTime * 10);
+        if (player != null)
+        {
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, (player.transform.position - transform.position).normalized, 100f, LayerMask.GetMask("Player") | LayerMask.GetMask("Ground") | LayerMask.GetMask("Box") | LayerMask.GetMask("Interactive Object"));
+            if (hit.collider != null && hit.collider.tag == "Player") transform.right = Vector2.Lerp(transform.right, (player.transform.position - transform.position).normalized, Time.deltaTime * 10);
+        }
     }
 
     IEnumerator Status_1()
     {
         while (true)
         {
-            //player's not dead
+            //Wait until the player steps into its range && player's not dead
             while (true)
             {
-                if (player != null) { break; }
+                if (player != null)
+                {
+                    RaycastHit2D hit = Physics2D.Raycast(transform.position, (player.transform.position - transform.position).normalized, 100f, LayerMask.GetMask("Player") | LayerMask.GetMask("Ground") | LayerMask.GetMask("Box") | LayerMask.GetMask("Interactive Object"));
+                    if (hit.collider != null && hit.collider.tag == "Player") { break; }
+                }
                 yield return null;
             }
-            yield return new WaitForSeconds(1f);
 
             //Attack
             anim.SetTrigger("Attack");
@@ -52,8 +58,12 @@ public class Soldier_Sniper : Enemy
 
     public void InstaShootSignal()
     {
-        anim.SetTrigger("Attack");
-        GameObject temp = Instantiate(attack, transform.position, transform.rotation);
-        temp.GetComponent<Attacks>().SetOwner("Enemy");
+        if (player != null)
+        {
+            transform.right = (player.transform.position - transform.position).normalized;
+            anim.SetTrigger("Attack");
+            GameObject temp = Instantiate(attack, transform.position, transform.rotation);
+            temp.GetComponent<Attacks>().SetOwner("Enemy");
+        }
     }
 }

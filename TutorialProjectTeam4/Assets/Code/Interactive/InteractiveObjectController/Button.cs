@@ -6,8 +6,11 @@ public class Button : InteractiveObjectController
 {
     private bool isStillPressed;
     [SerializeField] float timerDuration;
-    public float x;
-    public float y;
+    //public float x;
+    //public float y;
+
+    Animator anim { get => GetComponent<Animator>(); }
+
     protected override void Start()
     {
         base.Start();
@@ -17,24 +20,29 @@ public class Button : InteractiveObjectController
     {
         if (Input.GetMouseButtonDown(1) && isTouchingMouse == true && isStillPressed == false)
         {
+            anim.SetTrigger("Pressed");
             StartCoroutine(KeepBeingPressed());
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Mouse") { isTouchingMouse = true; }
+        /*
         if (other.tag == "Box")
         {
             for (int i = 0; i < children.Length; i++) { children[i].StatusChanged(!isActivated); }
         }
+        */
     }
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.tag == "Mouse") { isTouchingMouse = false; }
+        /*
         if (other.tag == "Box")
         {
             for (int i = 0; i < children.Length; i++) { children[i].StatusChanged(isActivated); }
         }
+        */
     }
     
     IEnumerator KeepBeingPressed()
@@ -45,6 +53,7 @@ public class Button : InteractiveObjectController
 
         isActivated = false; for (int i = 0; i < children.Length; i++) { children[i].StatusChanged(isActivated); }
         isStillPressed = false;
+        anim.SetTrigger("Idle");
         yield break;
     }
 }

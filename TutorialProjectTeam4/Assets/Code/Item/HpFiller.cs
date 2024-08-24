@@ -8,7 +8,7 @@ public class HpFiller : Item
     {
         if (player != null && other.tag == "Player")
         {
-            player.Recover(5f);
+            player.Recover(2f);
             Instantiate(obtainEffect, transform.position, transform.rotation);
             Destroy(gameObject);
         }

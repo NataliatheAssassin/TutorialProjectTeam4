@@ -20,8 +20,11 @@ public class Entity : MonoBehaviour
 
     public virtual void Die()
     {
-        hp = 0; //혹시 나중에 hp 바를 추가할 때를 대비해서, 추가함. 음수로 간 hp 바를 렌더링해봤자 이쁠 게 없음.
-        Instantiate(deathEffect, transform.position, transform.rotation);
-        Destroy(gameObject);
+        if (deathEffect != null)
+        {
+            hp = 0; //혹시 나중에 hp 바를 추가할 때를 대비해서, 추가함. 음수로 간 hp 바를 렌더링해봤자 이쁠 게 없음.
+            Instantiate(deathEffect, transform.position, transform.rotation);
+            Destroy(gameObject);
+        }
     }
 }

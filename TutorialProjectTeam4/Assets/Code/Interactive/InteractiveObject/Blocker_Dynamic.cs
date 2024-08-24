@@ -13,7 +13,7 @@ public class Blocker_Dynamic : InteractiveObject
         else                { destination = startPos; }
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         transform.localPosition = Vector2.Lerp(transform.localPosition, destination, Time.deltaTime*10);
     }

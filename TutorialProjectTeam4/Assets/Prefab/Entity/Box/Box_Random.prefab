@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5992497600815342445}
   - component: {fileID: 8388548367199509537}
   - component: {fileID: -2798006875917286762}
-  - component: {fileID: -1687236953391073199}
+  - component: {fileID: 8219317649192144533}
   m_Layer: 8
   m_Name: Box_Random
   m_TagString: Box
@@ -29,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 3693579540448975917}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 113.74835, y: -0.12677659, z: 0}
-  m_LocalScale: {x: 1.9, y: 1.9, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.8, y: 1.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,8 +76,8 @@ SpriteRenderer:
   m_SortingLayerID: -1702370139
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.6629687, b: 0.6313726, a: 1}
+  m_Sprite: {fileID: 21300000, guid: fe5144c6286c4b244866523cce2b890e, type: 3}
+  m_Color: {r: 0.5041795, g: 1, b: 0.49999988, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -159,7 +159,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &-1687236953391073199
+--- !u!114 &8219317649192144533
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,7 +172,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathEffect: {fileID: 7259877657278330261, guid: baf7a3d12c3a98e4f991c667596b2df3, type: 3}
-  button: {fileID: 0}
-  bomb: {fileID: 7948227667012878550, guid: 4460de8b1c9bb854dabb0fd8ad0f19cd, type: 3}
+  bomb: {fileID: 5241751509455047281, guid: a5d564b345891444f9171c5238d9cb37, type: 3}
   food: {fileID: 3363041196602213335, guid: 0b511b0a74c7b744c98049db9df11e1e, type: 3}
   magazine: {fileID: 3807531640300812124, guid: 0b6668bed7f815f41a294d74f498d068, type: 3}
