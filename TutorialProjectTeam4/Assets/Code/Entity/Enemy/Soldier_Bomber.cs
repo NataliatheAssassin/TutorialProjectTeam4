@@ -5,11 +5,11 @@ using UnityEngine;
 public class Soldier_Bomber : Enemy
 {
     private Animator anim { get => GetComponent<Animator>(); }
-    [SerializeField] protected GameObject Explosion; // ÀÚÆøÇÒ ¶§ »ç¿ëÇÒ Æø¹ß ÇÁ¸®ÆÕ
+    private bool youCanOnlyDieOnce = false;
 
     private void Awake()
     {
-        maxHp = 4;
+        maxHp = 2;
     }
 
     protected override void Start()
@@ -25,7 +25,7 @@ public class Soldier_Bomber : Enemy
     protected override void Update()
     {
         base.Update();
-        if (player != null && Vector2.Distance(transform.position, player.transform.position) < 3f) // ÀÚÆø °Å¸® ¼³Á¤
+        if (player != null)
             transform.right = Vector2.Lerp(transform.right, (player.transform.position - transform.position).normalized, Time.deltaTime * 10);
     }
 
@@ -39,20 +39,28 @@ public class Soldier_Bomber : Enemy
                 if (player != null && Vector2.Distance(transform.position, player.transform.position) < 2f) { break; }
                 yield return null;
             }
-            yield return new WaitForSeconds(1f);
 
             // ÀÚÆø
             anim.SetTrigger("Attack");
-            GameObject explosion = Instantiate(Explosion, transform.position, transform.rotation);
-            explosion.GetComponent<Explosion>().SetOwner("Enemy");
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.1f);
+            Die();
+            yield break;
         }
     }
 
-    public void InstaExplodeSignal()
+    public override void Die()
     {
-        anim.SetTrigger("Attack");
-        GameObject explosion = Instantiate(Explosion, transform.position, transform.rotation);
-        explosion.GetComponent<Explosion>().SetOwner("Enemy");
+        if (!youCanOnlyDieOnce)
+        {
+            youCanOnlyDieOnce = true;
+            Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, 2.5f, LayerMask.GetMask("Player") | LayerMask.GetMask("Box") | LayerMask.GetMask("Enemy"));
+            foreach (var hit in hits) { if (hit.GetComponent<Entity>() != null) { hit.GetComponent<Entity>().TakeDamage(5); } }
+
+            Collider2D[] hits2 = Physics2D.OverlapCircleAll(transform.position, 2.5f, LayerMask.GetMask("Attack"));
+            foreach (var hit in hits2) { if (hit.GetComponent<Attacks>() != null) { hit.GetComponent<Attacks>().Die(); } }
+
+            Instantiate(deathEffect, transform.position, transform.rotation);
+            Destroy(gameObject);
+        }
     }
 }

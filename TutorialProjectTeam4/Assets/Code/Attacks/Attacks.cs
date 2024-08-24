@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Attacks : MonoBehaviour
 {
-    protected string owner; public void SetOwner(string value) { owner = value; }
+    protected string owner; public void SetOwner(string value) { owner = value; } public string GetOwner() { return owner; }
     protected float damage; //set with awake(inherit)
 
     [SerializeField] protected GameObject deathEffect;
 
-    public void Die()
+    public virtual void Die()
     {
         Instantiate(deathEffect, transform.position, transform.rotation);
         Destroy(gameObject);

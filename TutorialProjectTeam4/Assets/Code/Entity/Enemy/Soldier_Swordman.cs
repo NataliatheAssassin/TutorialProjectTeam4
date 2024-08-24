@@ -38,7 +38,6 @@ public class Soldier_Swordman : Enemy
                 if (player != null && Vector2.Distance(transform.position, player.transform.position) < 2f) { break; }
                 yield return null;
             }
-            yield return new WaitForSeconds(0.25f);
 
             //Attack
             anim.SetTrigger("Attack");
