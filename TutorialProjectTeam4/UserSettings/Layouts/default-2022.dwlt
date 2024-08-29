@@ -21,7 +21,7 @@ MonoBehaviour:
     height: 629.3334
 
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -581,6 +581,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: bc760000
     m_LastClickedID: 30396
@@ -712,6 +713,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+
 
       m_SelectedIDs: 
       m_LastClickedID: 0
@@ -1205,6 +1207,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 
+
     m_Target: {x: 91.16168, y: 12.698358, z: -0.26695484}
     speed: 2
     m_Value: {x: 91.16168, y: 12.698358, z: -0.26695484}
@@ -1262,6 +1265,7 @@ MonoBehaviour:
     m_Target: 27.40964
     speed: 2
     m_Value: 27.40964
+
 
   m_Ortho:
     m_Target: 1
@@ -1627,14 +1631,14 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   m_PosLeft: {x: 0, y: 0}
-  m_PosRight: {x: 0, y: 70}
+  m_PosRight: {x: 0, y: 268}
   m_Scope: 1
   m_SplitterFlex: 0.2
-  m_SearchText: physic
+  m_SearchText: build
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: eb925b96
-    m_LastClickedID: -1772383509
+    m_SelectedIDs: 4dcf9b58
+    m_LastClickedID: 1486606157
     m_ExpandedIDs: 53336be200000000c53aba5a
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1652,7 +1656,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 0}
-    m_SearchString: physic
+    m_SearchString: build
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
