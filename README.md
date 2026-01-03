@@ -1,5 +1,5 @@
 # Tutorial Project
-This is a repository for Tutorial Project of CIEN, Team4
+This is a repository for Tutorial Project of CIEN, Team 4
 
 #2024.07.01
 Trying to upload a Unity project.
